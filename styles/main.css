@@ -1,56 +1,56 @@
 /* import google font - poppins */
 .poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 
@@ -60,5 +60,58 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    max-width: 1414px;
+    margin: 0 auto;
 }
 
+/* hero area */
+
+.hero-section {
+    background-color: #161616;
+    border-radius: 30px;
+    margin: 3px;
+}
+
+.hero-sect-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-block {
+    width: 50%;
+    margin: 1px;
+    padding-left: 125px;
+}
+
+.hero-header {
+    font-weight: 700;
+    font-size: 4.375rem;
+    line-height: 5rem;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.hero-copy {
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.hero-cta {
+    background-color: #DD0000;
+    padding: 16px 25px;
+    margin: 1px;
+    border-radius: 5px;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    color: #FFFFFF;
+}
+
+.hero-image {
+    display: block;
+}
