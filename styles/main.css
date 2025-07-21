@@ -163,10 +163,55 @@
 
 .schedule-right-block {
     flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 }
 
+.scheduled-event {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
 
+.event-img {
+    max-width: 312px;
+    border-radius: 10px 10px 0 0;
+}
 
+.event-desc {
+    margin: 20px;
+}
+
+.event-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #161616;
+    padding: 4px 16px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #161616;
+}
+
+.event-copy {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: #161616;
+    margin-bottom: 20px;
+}
+
+.event-info-wrap {
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #161616CC;
+
+    display: flex;
+    gap: 40px;
+    justify-content: left;
+}
 
 /* ------------------------------------ */
 @media screen and (max-width:576px) {}
