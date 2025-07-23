@@ -110,6 +110,20 @@
     color: #161616;
 }
 
+@keyframes hero-animation {
+    0% {
+        opacity: 10%;
+    }
+
+    50% {
+        opacity: 100%
+    }
+
+    100% {
+        opacity: 10%
+    }
+}
+
 /* hero section style */
 .hero-sect {
     padding: 33px 15px 0 125px;
@@ -146,6 +160,10 @@
 
 .hero-right-block img {
     display: block;
+}
+
+.hero-img {
+    animation: hero-animation 10s infinite;
 }
 
 /* main area styles */
