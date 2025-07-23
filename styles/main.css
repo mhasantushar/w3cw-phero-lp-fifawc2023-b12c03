@@ -121,7 +121,7 @@
 .hero-sect-wrapper {
     display: flex;
     gap: 20px;
-    align-items:end;
+    align-items: end;
     justify-content: center;
 }
 
@@ -181,7 +181,7 @@
     flex: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content:center;
+    justify-content: center;
     column-gap: 50px;
     row-gap: 24px
 }
@@ -262,16 +262,66 @@ footer {
 
 
 /* ----------------------------------------------- */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 576px) {
 
+    .hero-sect {
+        padding-left: 15px;
+        margin-bottom: 27px;
+    }
+
+    .hero-sect-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-left-block {
+        text-align: center;
+        margin: 30px 40px 20px 40px;
+    }
+
+    .hero-head {
+        font-size: 2.5rem;
+        line-height: 3.15rem;
+    }
+
+    .hero-right-block img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .schedule-sect-wrapper {
+        flex-direction: column;
+    }
+
+    .schedule-left-wrapper {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .schedule-left-wrapper button {
+        width: fit-content;
+    }
+
+    .schedule-right-wrapper {
+        grid-template-columns: 1fr;
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 /* ----------------------------------------------- */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
 
     .hero-left-block {
         margin: 60px 0 60px 75px;
     }
-
 
     .schedule-sect-wrapper {
         flex-direction: column;
@@ -286,11 +336,10 @@ footer {
 
     schedule-left-wrapper>button {
         flex: 1;
-        border:1px solid #E8E8E8;
+        border: 1px solid #E8E8E8;
     }
 
     .schedule-right-wrapper {
-        border: 1px solid tomato;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         align-items: center;
